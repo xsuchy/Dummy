@@ -20,11 +20,11 @@ Really nothing here. Move on.
 
 
 %install
-mkdir -p %{buildroot}%{_bindir)
-cp -a something.py %{_bindir)/
+mkdir -p %{buildroot}%{_bindir}
+cp -a something.py %{_bindir}/
 
 %files
-%{_bindir)/something.py
+%{_bindir}/something.py
 
 
 
